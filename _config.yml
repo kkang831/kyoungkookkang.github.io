@@ -159,7 +159,6 @@ footer:
 include:
   - .htaccess
   - _pages
-  - /docs # ignore Minimal Mistakes /docs
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -182,6 +181,7 @@ exclude:
   - node_modules
   - package.json
   - Rakefile
+  - /docs # ignore Minimal Mistakes /docs
   - README
   - tmp
   - /test # ignore Minimal Mistakes /test
@@ -284,24 +284,25 @@ compress_html:
 # Defaults
 defaults:
   # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
-  # # _docs
   # - scope:
   #     path: ""
-  #     type: docs
-  #   value:
-  #     sidebar:
-  #       nav: "docs"
-
-
-sidebar:
-  nav: "docs"
+  #     type: posts
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     read_time: true
+  #     comments: # true
+  #     share: true
+  #     related: true
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+        layout: single
+        read_time: false
+        author_profile: false
+        share: false
+        comments: false
+      sidebar:
+        nav: "docs"
