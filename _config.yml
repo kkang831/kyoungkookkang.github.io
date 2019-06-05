@@ -106,11 +106,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "Kyoungkook Kang"
+  avatar           : /assets/images/tmp_avatar.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  location         : "Daegu Korea"
+  email            : "kkang@dgist.ac.kr"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
