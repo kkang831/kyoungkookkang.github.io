@@ -106,7 +106,7 @@ analytics:
 # Site Author
 author:
   name             : "Kyoungkook Kang"
-  avatar           : /assets/images/phtho.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/photo.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Kyoungkook Kang
   </br>Ph.D Candidate in Computer Science and Engineering @ DGIST, KOREA
   </br>+82-10-2826-2996"
