@@ -181,9 +181,9 @@ exclude:
   - node_modules
   - package.json
   - Rakefile
-  - /docs # ignore Minimal Mistakes /docs
   - README
   - tmp
+  - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
@@ -283,7 +283,7 @@ compress_html:
 
 # Defaults
 defaults:
-  _posts
+  # _posts
   - scope:
       path: ""
       type: posts
