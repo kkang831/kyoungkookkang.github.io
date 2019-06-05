@@ -107,8 +107,9 @@ analytics:
 author:
   name             : "Kyoungkook Kang"
   avatar           : /assets/images/tmp_avatar.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Kyoungkook Kang, PhD Candidate in Computer Science and Engineering @ DGIST, KOREA </br>
-  +82-10-2826-2996"
+  bio              : "Kyoungkook Kang
+  </br>Ph.D Candidate in Computer Science and Engineering @ DGIST, KOREA
+  </br>+82-10-2826-2996"
   location         : "Daegu Korea"
   email            : "kkang@dgist.ac.kr"
   links:
@@ -158,6 +159,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - /docs # ignore Minimal Mistakes /docs
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -182,7 +184,6 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
