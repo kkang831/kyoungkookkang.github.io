@@ -110,14 +110,13 @@ author:
   name             : "Kyoungkook Kang"
   avatar           : /assets/images/photo.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Kyoungkook Kang
-  <br>Ph.D Candidate in Computer Science and Engineering @ DGIST, KOREA
-  <br>+82-10-2826-2996"
+  <br>Ph.D Candidate in Computer Science and Engineering @ DGIST, KOREA"
   location         : "Daegu Korea"
   email            : "kkang@dgist.ac.kr"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: kkang@dgist.ac.kr
+      # url: kkang@dgist.ac.kr
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
